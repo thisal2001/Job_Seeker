@@ -1,0 +1,99 @@
+
+#container{
+    display: flex;
+}
+
+#container > .col, #container > .col2{
+    width: 50%;
+}
+
+#container > .col{
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+#container > .col.candidate-bg{
+    background: url('/jobseeker/assets/images/login-candidate.png');
+}
+
+#container > .col.recruiter-bg{
+    background: url('/jobseeker/assets/images/login-recruiter.jpg');
+}
+
+#container > .col.admin-bg{
+    background: url('/jobseeker/assets/images/login-admin.jpg');
+}
+
+form{
+    width: 65%;
+    display: block;
+    margin: 0px auto;
+}
+
+.inputBx{
+  width: 100%;
+  display: block;
+  margin: 20px auto;
+}
+
+.inputBx span{
+   font-size: 16px;
+   margin-bottom: 5px;
+   display: block;
+   font-weight: 300;
+   font-size: 16px;
+   Letter-spacing: 1px;
+}
+
+.inputBx input{
+	width: -webkit-fill-available;
+	padding:10px 20px;
+	outline:none;
+	font-weight:400;
+	border: 1px solid #607d8b;
+	font-size: 16px;
+	Letter-spacing: 1px;
+    color:#607d8b;
+    background:transparent;
+    border-radius: 30px;
+}
+
+
+.inputBx input[type = "submit"]{
+   background: #ffa052;
+   color: #fff;
+   outline: none;
+   border: none;
+   font-weight: 500;
+   cursor: pointer;
+}
+
+.inputBx input[type = "submit "]:hover{
+   background: #f53677;
+}
+
+.remember{
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.inputBx p a{
+    color: #fb8f37;
+}    
+
+#login-btn{
+    display: block;
+    margin: 0px auto;
+    width: 50%;
+    border-radius: 50px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+@media(max-width: 768px){   /*MD*/
+    #container > .col2{
+        width: 100%;
+    }
+}

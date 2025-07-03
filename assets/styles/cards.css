@@ -1,0 +1,94 @@
+
+.card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.card > .card-wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    width: 75%;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    border: 1px solid #333;
+    /* align-items: center; */
+    padding: 10px;
+}
+
+.card > .card-wrapper > .card-img{
+    width: 35%;
+    height: 18rem;
+    object-fit: contain;
+    border-radius: 20px;
+    padding-right: 20px;
+}
+
+.card > .card-wrapper > .card-content{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-left: 1px solid #333;
+}
+
+.card > .card-wrapper > .card-content > .left > .card-title{
+    font-size: 18px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+.card > .card-wrapper > .card-content > .left{
+    width: 75%;
+}
+
+.card > .card-wrapper > .card-content > .right{
+    position: relative;
+    width: 25%;
+}
+
+.card > .card-wrapper > .card-content > .right > .card-location-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.card > .card-wrapper > .card-content > .right > .card-location-wrapper > .map-icon{
+    width: 35px;
+    height: 35px;
+}
+
+.card > .card-wrapper > .card-content > .right > .card-location-wrapper > .card-location{
+    margin: 0px;
+    text-align: center;
+}
+
+.card > .card-wrapper > .card-content > .right > .apply-btn{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+@media(max-width: 768px){   /*MD*/
+    .card > .card-wrapper{
+        flex-direction: column;
+        width: 65%;
+    }
+    .card > .card-wrapper > .card-img{
+        height: auto;
+        width: 100%;
+        border-radius: 0px;
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+    .card > .card-wrapper > .card-content{
+        padding: 20px 5px;
+        border-left: none;
+        border-top: 1px solid #333;
+    }
+}

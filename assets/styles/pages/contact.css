@@ -1,0 +1,137 @@
+
+h4{
+    margin-bottom: 4rem;
+}
+
+.container{
+    width: 100%;
+    text-align:center;
+}
+
+.contact-info{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    background: #010130;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(25% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    height: 35vh;
+}
+
+.card-icon{
+    font-size: 28px;
+    background: #e0560b;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+
+.card:hover .card-icon{
+    background: none;
+    color: #e0560b;
+    transform: scale(1.6);
+}
+
+.card p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.card:hover p{
+    max-height: 40px;
+    opacity: 1;
+}
+
+.contact-box{
+	display: block;
+    margin: 0px auto;
+	text-align: center;
+	background-color: #fff;
+    width: 85%;
+}
+
+.left > img{
+    width: -webkit-fill-available;
+}
+
+.right, .left{
+    width: 50%;
+}
+
+h3{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+/* h3:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #e0560b;
+} */
+
+.field{
+	width: -webkit-fill-available;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+  
+  
+@media(max-width: 768px){   /*MD*/
+    .contact-info{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+    .right{
+        width: 100%;
+    }
+}
+  

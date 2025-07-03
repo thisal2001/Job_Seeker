@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+html{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+body{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+
+/* ==================== Text Tags Styles ==================== */
+p, input, select{
+    font-size: 18px;
+}
+pre{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    white-space: pre-wrap !important;
+    white-space: -moz-pre-wrap !important;
+    white-space: -pre-wrap !important;
+    white-space: -o-pre-wrap !important;
+    word-wrap: break-word !important;
+}
+/* ==================== Text Tags Styles End ==================== */
+
+
+/* ==================== Text Styles ==================== */
+.text-white{
+    color: #fff;
+}
+.text-gray{
+    color: #b4b9c2;
+}
+.text-success{
+    color: #219900;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-justify{
+    text-align: justify;
+}
+/* ==================== Text Styles End ==================== */
+
+
+/* ==================== Logo Styles ==================== */
+.logo-md{
+    width: 250px;
+}
+.logo-sm{
+    width: 180px;
+}
+/* ==================== Logo Styles End ==================== */
+
+
+/* ==================== Spacing Styles ==================== */
+.pl-2{
+    margin-left: .5rem;
+}
+.pt-4{
+    margin-top: 1rem;
+}
+.py-2{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.m-0{
+    margin: 0px;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.mx-4{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.my-2{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.my-4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.my-6{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+/* ==================== Spacing Styles End ==================== */
+
+
+/* ==================== Width Styles ==================== */
+.w-48{
+    width: 12rem;
+}
+.w-100{
+    width: 100%;
+}
+.w-fit{
+    width: fit-content;
+}
+/* ==================== Width Styles End ==================== */
+
+
+/* ==================== Icon Styles ==================== */
+.icon-fit{
+    width: fit-content;
+}
+.icon-xl{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+.icon-lg{
+    width: 350px;
+}
+.icon-md{
+    width: 250px;
+}
+.icon-sm{
+    width: 85px;
+}
+.icon-xs{
+    width: 45px;
+}
+/* ==================== Icon Styles End ==================== */
+
+
+/* ==================== Display Styles ==================== */
+.justify-center{
+    justify-content: center;
+}
+.justify-items-between{
+    justify-content: space-between;
+}
+.justify-items-evenly{
+    justify-content: space-evenly;
+}
+.justify-items-end{
+    justify-content: flex-end;
+}
+.align-items-center{
+    align-items: center;
+}
+/* ==================== Display Styles End ==================== */
+
+
+/* ==================== Heading Styles ==================== */
+h1{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+/* ==================== Heading Styles End ==================== */
+
+
+/* ==================== Scroll Bar Styles ==================== */
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 12px;
+    background: #4b4b4b; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FF933C; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ffa052; 
+}
+/* ==================== Scroll Bar Styles End ==================== */
+
+
+/* ==================== Heading Styles End ==================== */
+.underliner{
+    display: block;
+    margin: 0px auto;
+    width: 10rem;
+    border: none;
+    border-bottom: 5px solid #ffa052;
+    margin-bottom: 20px;
+}
+/* ==================== Heading Styles End ==================== */

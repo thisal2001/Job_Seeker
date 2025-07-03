@@ -1,0 +1,38 @@
+
+#recruiter-container{
+    width: 60%;
+    display: block;
+    margin: 0px auto;
+}
+
+#recruiter-container > .recruiter-list{
+    display: flex;
+    background-color: #ffe7d3;
+    border: 1px solid #ffa052;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#recruiter-container > .recruiter-list > .content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#recruiter-container > .recruiter-list > .content > .recruiter-username{
+    text-transform: capitalize;
+}
+
+#recruiter-container > .recruiter-list > .content > .operational-icons{
+    display: flex;
+}
+
+#recruiter-container > .recruiter-list > .content > .operational-icons > a{
+    display: flex;
+    margin-left: 20px;
+}
+
+#recruiter-container > .recruiter-list > .content > .operational-icons > img{
+    margin: 0px 10px;
+}
